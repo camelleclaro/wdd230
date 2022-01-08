@@ -1,3 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Source+Serif+Pro:wght@200;300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Source+Serif+Pro:wght@200;300&display=swap");
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Source Serif Pro', serif; */
+
+/* Global Setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default Setting */
+html,
+body {
+  font-family: "Source Serif Pro", serif;
+  line-height: 1.2em;
+}
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+}
