@@ -28,6 +28,7 @@ img {
   height: 100%;
 }
 .container {
+  height: auto;
   max-width: 1100px;
   margin: 0 auto;
   overflow: auto;
@@ -41,7 +42,7 @@ img {
   background: #064635;
   color: aliceblue;
   height: auto;
-  min-height: 200px;
+  min-height: 250px;
 }
 .myimage {
   border-radius: 15%;
@@ -56,6 +57,8 @@ img {
 .main-content {
   background: #fff;
   padding: 10px;
+  height: auto;
+  min-height: 500px;
 }
 .main-content h2 {
   font-size: 1.8em;
@@ -81,5 +84,5 @@ footer {
   padding: 20px 0;
 }
 footer p {
-    text-align: center;
+  text-align: center;
 }

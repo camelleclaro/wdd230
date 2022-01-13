@@ -1,0 +1,38 @@
+@media (min-width: 32.5em) {
+  /* header */
+  .section-1 {
+    background-color: #fff ;
+  }
+  .myimage {
+    border-radius: 15%;
+    margin-right: 50px;
+    height: 160px;
+  }
+  .name {
+    font-size: 2.5em;
+  }
+
+  /* main content */
+  .main-content {
+    background: #fff;
+    padding: 10px;
+    height: auto;
+    min-height: 500px;
+  }
+  .main-content h2 {
+    font-size: 1.8em;
+    border-bottom: 1.5px solid #3333;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  .main-content ul {
+    padding: 10px 50px;
+  }
+  .main-content ul li {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  .main-content p {
+    border-top: 2px solid #3333;
+  }
+}
