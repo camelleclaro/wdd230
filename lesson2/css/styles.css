@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Source+Serif+Pro:wght@200;300&display=swap");
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Source Serif Pro', serif; */
+
+/* Global Setting */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Default Setting */
+html,
+body {
+  background: #f4eea9;
+  font-family: "Source Serif Pro", serif;
+  line-height: 1.2em;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+}
+p {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+img {
+  height: 100%;
+}
+.container {
+  height: auto;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* header */
+.section-1 {
+  background: #064635;
+  color: aliceblue;
+  height: auto;
+  min-height: 100px;
+  text-align: center;
+  padding-top: 15px;
+  line-height: 1.5em;
+}
+.title {
+  font-size: 1.5em;
+}
+/* main content */
+.main-content {
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #fff;
+  padding: 10px;
+  width: auto;
+  grid-gap: 10px;
+}
+.border {
+  border: 2px solid #064635;
+  border-radius: 15px;
+  padding: 20px;
+  height: auto;
+}
+.box-1 {
+  grid-column: 1/2;
+}
+.box-2 {
+  grid-column: 2/3;
+}
+.box-3 {
+  grid-column: 3/4;
+}
+.box-1 h3,
+.box-2 h3
+.box-3 h3 {
+  font-family: 300;
+}
+.box-1 img,
+.box-2 img,
+.box-3 img {
+  height: auto;
+  text-align: center;
+}
+.box-1 a,
+.box-2 a,
+.box-3 a {
+  display: block;
+  padding-bottom: 10px;
+}
+
+
+/* footer */
+footer {
+  background: #f0bb62;
+  height: auto;
+  padding: 20px 0;
+}
+footer p {
+  text-align: center;
+}
