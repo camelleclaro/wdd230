@@ -1,0 +1,19 @@
+@media (max-width: 32.4em) {
+    h1 {
+        line-height: 1em;
+        font-size: 1.5em;
+    }
+    .title {
+        font-size: 1em;
+      }
+    .main-content {
+        display: block;
+    }
+    .border {
+        margin-bottom: 10px;
+    }
+    footer {
+        padding: 10px 0;
+        line-height: .5em;
+    }
+}

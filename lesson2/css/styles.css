@@ -1,3 +1,5 @@
+/* css default / for large screen */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Source+Serif+Pro:wght@200;300&display=swap");
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Source Serif Pro', serif; */
@@ -22,11 +24,12 @@ h3 {
   margin-bottom: 10px;
 }
 p {
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 5px;
 }
 img {
-  height: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 .container {
   height: auto;
@@ -41,7 +44,7 @@ img {
   background: #064635;
   color: aliceblue;
   height: auto;
-  min-height: 100px;
+  min-height: 110px;
   text-align: center;
   padding-top: 15px;
   line-height: 1.5em;
@@ -53,7 +56,7 @@ img {
 .main-content {
   height: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: min-max(auto, 1fr);
   background: #fff;
   padding: 10px;
   width: auto;
@@ -61,10 +64,11 @@ img {
 }
 .border {
   border: 2px solid #064635;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
   padding: 20px;
   height: auto;
 }
+
 .box-1 {
   grid-column: 1/2;
 }
@@ -75,16 +79,12 @@ img {
   grid-column: 3/4;
 }
 .box-1 h3,
-.box-2 h3
+.box-2 h3,  
 .box-3 h3 {
+  color: #064635;
   font-family: 300;
 }
-.box-1 img,
-.box-2 img,
-.box-3 img {
-  height: auto;
-  text-align: center;
-}
+
 .box-1 a,
 .box-2 a,
 .box-3 a {
