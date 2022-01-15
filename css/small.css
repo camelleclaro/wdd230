@@ -1,3 +1,26 @@
-@media (max-with: 32.4em) {
+@media (max-width: 32.4em) {
+  .section-1 {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  .myimage {
+    margin-top: 20px;
+    margin-right: 0;
+    height: 100px;
+  }
+  .name {
+    font-size: 1.3em;
+  }
 
+  /* main content */
+  .main-content {
+    line-height: 1.6em;
+  }
+
+  /* footer */
+  footer {
+    padding: 10px 0;
+  }
+ 
 }
